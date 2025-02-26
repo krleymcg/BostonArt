@@ -1,0 +1,230 @@
+header {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  
+}
+#logos {
+    width: auto;
+    max-width: 100%;
+    max-height: 45px;
+}
+
+.logo {
+ 
+    display: block;
+    width: auto;
+    max-width: 100%;
+    max-height: 45px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    height: 205px;
+}
+
+.menu {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 2.2vw;
+    padding-bottom: 2.2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: row;
+    unicode-bidi: isolate;
+}
+.nav {
+   
+    text-align: right;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+margin-left: 120px;
+    width: 75%;
+}
+#home {
+    border-bottom: black 1px solid;
+}
+.mennu {
+    width: 63.74;
+    height: 43px;
+    font:  21.5008px Poppins;
+    padding:10px 20px;
+    text-decoration: none;
+    color: #544f4c;
+    
+
+}
+
+#fondo {
+    
+    width: 1315px;
+    height: 400px;
+    background:  rgba(0, 0, 0, 0.6) url(../img/artboston.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 91px;
+    align-content: center;
+    display: flex;
+    background-blend-mode: darken;
+    clip-path: ellipse(99% 99% at 50% 0%);
+}
+
+.let {
+    color: white;
+  font-family: furtura-pt;
+    text-align: center;
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    width: 1390px;
+    height: 199px;
+    align-items: center;
+
+}
+.letras {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    z-index: 2; /* Asegura que el texto este adelante*/;
+    color: #ffff;
+}
+ #logo {
+    height: 60%;
+    width: 100%; 
+ }
+ img {
+    height: 80%;
+    width: 100%;
+ }
+.tercero {
+    
+    color:#544f4c;
+    font: 21px Poppins;
+    background: #FFFFFF;
+    text-emphasis: center;
+    width: 1390px;
+    height: 450px;
+    padding: 61px 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+}
+.elevate {
+    font-weight: 500;
+    color:#544f4c;
+    font: 70px futura-pt;
+    text-align: left;
+    width: 951px;
+    height: 100px;
+    padding: 0px 0px 32px;
+
+}
+.elevate2 {
+font-weight: 500;
+color:#544f4c;
+font: 30px poppins;
+text-align: left;
+width: 951px;
+height: 115px;
+}
+.cuarto {
+   border-color: aqua;
+    width: 100%;
+}
+.talvez {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.get {
+    background: #544f4c;
+    padding: 0px 38.4px;
+    width: 190px;
+    height: 60px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font: 20px Poppins;
+    font-weight: 700;
+   text-align: center; 
+   display: flex;
+   align-items: center;
+   box-sizing: border-box;
+   justify-content: center;
+   margin-left: 0px;
+}
+.get2{
+   
+    border: #000000 solid 1px;
+    display:flex;
+ align-content: flex-start;
+    
+}
+.smallimg {
+    width: 266px;
+    height: 267px;
+    border-radius: 133px;
+    object-fit: cover;
+}
+.bigcaja {
+   
+    width: 1518px;
+    height: 565px;
+    padding:0px 61px;
+    display: flex;
+    flex-direction: row;
+    justify-items: space-between;
+   background-color: white;
+   margin-top: 5%;
+}
+
+.smallcajas {
+
+    width: 100%;
+    height:80%;
+    color: #000000;
+    background-color: #f2f2f0;
+    padding: 33.26px;
+    flex-basis: 15%;
+    margin: 7px; 
+}
+.titulo {
+    width: 266px;
+    height: 25px;
+    font:  19px Poppins;
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+.titulo2 {
+width: auto;
+height: auto;
+color: #544f4c;
+font: 40px Poppins;
+text-align: left;
+font-weight: 300;
+  margin: 0%;
+}
+body {
+    animation: fadein 4s; 
+}
+@keyframes fadein {
+    0% {
+        opacity:0;
+    }
+    50%{
+        opacity:0.5;
+    }
+    100% {
+        opacity:1;
+    }
+}
